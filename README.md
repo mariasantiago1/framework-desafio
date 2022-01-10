@@ -20,14 +20,6 @@ Esse repositório constitui a **API** (_Application Programing Interface_) do si
 
 **Obs**: As credenciais de acesso à API consumida já foram geradas pelo script.
 
-## Ambiente Docker
-
-1) Certifique-se que o Docker está instalado.
-2) Alterar na variável de ambiente o valor `DB_HOST` para `<nome-container-database>`.
-3) Execute na raiz do projeto `docker-compose up --build -d` para subir o projeto.
-4) Para criar a estrutura básica do banco execute o comando `docker exec -it <nome-container-database> sh /opt/recria_db_docker.sh`
-5) Para importar a massa inicial dos dados execute o comando `docker exec -it <nome-container-django> sh /usr/src/app/scripts/carga.sh`
-
-**Obs**: As credenciais de acesso ao ambiente como superusuário já foi gerado pelo script, no entanto pode ser gerado outro com o comando `docker exec -it <nome-container-django> python manage.py createsuperuser`
 ## Testes
+**TO DO**
 
